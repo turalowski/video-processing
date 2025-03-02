@@ -6,7 +6,7 @@ Create a video processing application where users can upload videos, which are t
 ## Tasks
 
 ### 1. Setup and Configuration
-- [ ] Initialize a new Dash application.
+- [x] Initialize a new Dash application.
 - [ ] Set up Supabase for blob storage.
 - [ ] Configure environment variables for Supabase and other services.
 
