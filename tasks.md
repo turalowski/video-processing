@@ -15,11 +15,13 @@ Create a video processing application where users can upload videos, which are t
 - [x] Implement backend logic to handle video uploads and store them in Supabase.
 
 ### 3. Video Processing
-- [ ] Integrate FFmpeg to process uploaded videos into multiple resolutions (e.g., 240p, 360p, 480p, 720p, 1080p).
+- [x] Integrate FFmpeg to process uploaded videos into multiple resolutions (e.g., 240p, 360p, 480p, 720p, 1080p).
 - [ ] Store processed video files back in Supabase.
 
-### 4. HLS Streaming
+### 4. DASH and HLS Streaming
+- [ ] Set up DASH streaming for processed videos.
 - [ ] Set up HLS streaming for processed videos.
+- [ ] Store DASH (.mpd) and HLS (.m3u8) manifest files and segments in Supabase.
 - [ ] Implement logic to serve the appropriate video resolution based on client network speed.
 
 ### 5. Client-Side Adaptation
@@ -37,6 +39,10 @@ Create a video processing application where users can upload videos, which are t
 ### 8. Deployment
 - [ ] Deploy the application to a cloud service (e.g., Heroku, Vercel).
 - [ ] Ensure all services are correctly configured and running.
+
+### 9. Player Integration
+- [ ] Integrate a video player that supports DASH and HLS.
+- [ ] Test player functionality across different devices and network conditions.
 
 ## Additional Features (Optional)
 - [ ] Implement user authentication for video uploads.
