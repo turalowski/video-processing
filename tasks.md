@@ -7,12 +7,12 @@ Create a video processing application where users can upload videos, which are t
 
 ### 1. Setup and Configuration
 - [x] Initialize a new Dash application.
-- [ ] Set up Supabase for blob storage.
-- [ ] Configure environment variables for Supabase and other services.
+- [x] Set up Supabase for blob storage.
+- [x] Configure environment variables for Supabase and other services.
 
 ### 2. Video Upload
-- [ ] Create a frontend component for video file upload.
-- [ ] Implement backend logic to handle video uploads and store them in Supabase.
+- [x] Create a frontend component for video file upload.
+- [x] Implement backend logic to handle video uploads and store them in Supabase.
 
 ### 3. Video Processing
 - [ ] Integrate FFmpeg to process uploaded videos into multiple resolutions (e.g., 240p, 360p, 480p, 720p, 1080p).
